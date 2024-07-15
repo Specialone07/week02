@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .product {
+            width: 200px;
+            text-align: center;
+            margin: 10px;
+        }
+        .product img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover; 
+        }
+        .product p {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Online Shop</h1>
+    <div class="products">
+        <div class="product">
+            <a href="bike.html"><img src="images/bike.jpg" alt="Bike"></a>
+            <p>Bike</p>
+        </div>
+        <div class="product">
+            <a href="car.html"><img src="images/car.jpg" alt="Car"></a>
+            <p>Car</p>
+        </div>
+        <div class="product">
+            <a href="appliances.html"><img src="images/appliances.jpg" alt="Appliances"></a>
+            <p>Appliances</p>
+        </div>
+        <div class="product">
+            <a href="phone.html"><img src="images/phone.jpg" alt="Phone"></a>
+            <p>Phone</p>
+        </div>
+    </div>
+</body>
+</html>
